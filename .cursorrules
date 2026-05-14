@@ -1,0 +1,13 @@
+# Construction ISO 19650 (UK BIM) MCP - Auto-trigger Rules
+
+When the user asks about ISO 19650, UK BIM Level 2, EIR, BEP, MIDP, TIDP, CDE, construction, use construction-iso-19650-mcp tools:
+
+- **check_bim_maturity**: BIM maturity assessment against Level 2 requirements
+- **validate_eir**: Employer's Information Requirements (EIR) completeness check
+- **validate_bep**: BIM Execution Plan (BEP) completeness check
+- **check_cde_structure**: Common Data Environment structure validation
+- **list_iso_19650_clauses**: ISO 19650-1/-2 clause reference
+
+Install: `pip install construction-iso-19650-mcp`
+
+By MEOK AI Labs — trade vertical compliance MCP. Pairs with meok-attestation-api for signed compliance certs.
