@@ -1,0 +1,28 @@
+name: construction-iso-19650-mcp
+description: 'MCP server: construction-iso-19650-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/construction-iso-19650-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: check_bim_maturity
+  description: BIM maturity assessment against Level 2 requirements
+- name: validate_eir
+  description: Employer's Information Requirements (EIR) completeness check
+- name: validate_bep
+  description: BIM Execution Plan (BEP) completeness check
+- name: check_cde_structure
+  description: Common Data Environment structure validation
+- name: list_iso_19650_clauses
+  description: ISO 19650-1/-2 clause reference
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

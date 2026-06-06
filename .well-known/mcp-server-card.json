@@ -1,0 +1,28 @@
+{
+  "name": "construction-iso-19650-mcp",
+  "title": "Construction Iso 19650 Mcp",
+  "description": "ISO 19650 / UK BIM Level 2 compliance for construction projects. EIR, BEP, MIDP, TIDP, and CDE structure validation.",
+  "version": "1.0.4",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "check_bim_maturity"
+    },
+    {
+      "name": "validate_eir"
+    },
+    {
+      "name": "validate_bep"
+    },
+    {
+      "name": "check_cde_structure"
+    },
+    {
+      "name": "list_iso_19650_clauses"
+    }
+  ]
+}
