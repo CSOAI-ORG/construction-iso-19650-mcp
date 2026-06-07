@@ -1,0 +1,68 @@
+{
+  "name": "construction-iso-19650-mcp",
+  "description": "ISO 19650 / UK BIM Level 2 compliance for construction projects. EIR, BEP, MIDP, TIDP, and CDE s...",
+  "url": "https://proofof.ai/scorecard/construction-iso-19650-mcp.html",
+  "version": "1.0.4",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "check_bim_maturity",
+      "name": "Check Bim Maturity",
+      "description": "check_bim_maturity via construction-iso-19650-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_eir",
+      "name": "Validate Eir",
+      "description": "validate_eir via construction-iso-19650-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_bep",
+      "name": "Validate Bep",
+      "description": "validate_bep via construction-iso-19650-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "check_cde_structure",
+      "name": "Check Cde Structure",
+      "description": "check_cde_structure via construction-iso-19650-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_iso_19650_clauses",
+      "name": "List Iso 19650 Clauses",
+      "description": "list_iso_19650_clauses via construction-iso-19650-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
