@@ -1,0 +1,32 @@
+# Construction Iso 19650 MCP
+
+> UK BIM Level 2 (ISO 19650) compliance MCP
+
+`construction-iso-19650-mcp` is a Model Context Protocol (MCP) server by MEOK AI Labs.
+
+## Install
+
+```bash
+pip install construction-iso-19650-mcp
+```
+
+Or run without installing:
+
+```bash
+uvx construction-iso-19650-mcp
+```
+
+## Tools
+
+- `check_bim_maturity` — BIM maturity assessment against Level 2 requirements
+- `validate_eir` — Employer's Information Requirements (EIR) completeness check
+- `validate_bep` — BIM Execution Plan (BEP) completeness check
+- `check_cde_structure` — Common Data Environment structure validation
+- `list_iso_19650_clauses` — ISO 19650-1/-2 clause reference
+
+## Links
+
+- Source: https://github.com/CSOAI-ORG/construction-iso-19650-mcp
+- PyPI: https://pypi.org/project/construction-iso-19650-mcp/
+- MEOK AI Labs: https://meok.ai
+- Council of AI: https://councilof.ai
