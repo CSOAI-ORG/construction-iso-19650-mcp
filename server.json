@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/construction-iso-19650-mcp",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ISO 19650 / UK BIM Level 2 compliance for construction projects. EIR, BEP, MIDP, TIDP, and CDE s...",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/construction-iso-19650-mcp",
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "construction-iso-19650-mcp",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"
