@@ -3,7 +3,7 @@ description: 'MCP server: construction-iso-19650-mcp'
 version: 1.0.5
 author: MEOK AI Labs
 homepage: https://safetyof.ai
-repository: https://github.com/MEOK-AI-Labs/construction-iso-19650-mcp
+repository: https://github.com/CSOAI-ORG/construction-iso-19650-mcp
 license: MIT
 categories:
 - compliance
